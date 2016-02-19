@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 
-input1 = raw_input("Enter name: ")
-input2 = input("Enter age: ")
+def Myfunc(input1,input2):
+        print "Hi! My name is",input1+" and my age is",input2
+        print "Hi! My name is %s and my age is %s"%(input1,input2)
+        print "Hi! My name is {} and my age is {}".format(input1,input2)
+        
+Myfunc("Junard",19)    
 
-print "Hi! My name is "+input1+" and my age is",input2
-print "Hi! My name is %s and my age is %s"%(input1,input2)
-print "Hi! My name is",input1,"and my age is",input2
+
+
+
 
 
 
